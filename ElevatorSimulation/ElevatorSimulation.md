@@ -29,4 +29,36 @@ classDiagram
     class ElevatorShaft {
         +elevator: Elevator
         +arrivalLight: Light
-        +floor:
+        +floor: Integer
+    }
+
+    class Light {
+        +status: Boolean
+    }
+
+    class CallButton {
+        +direction: String
+        +floor: Integer
+        +pressed: Boolean
+    }
+
+    class Person {
+        +currentFloor: Integer
+        +destinationFloor: Integer
+    }
+
+    class Simulator {
+        +building: Building
+        +currentTime: DateTime
+        +generateRandomNumber(min: Integer, max: Integer): Integer
+        +generatePerson(): Person
+        +simulate(): void
+        +logEvent(event: String): void
+    }
+
+    Building "1" --> "*" Elevator: has
+    Building "1" --> "*" Floor: has
+    ElevatorShaft --> Elevator
+    Floor "1" --> "*" ElevatorShaft: has
+    Floor "1" --> "*" Light: has
+    Floor "1" --> "*" CallButton: has
