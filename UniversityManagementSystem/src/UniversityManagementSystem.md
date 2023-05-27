@@ -24,4 +24,4 @@ class Universite {
   Departman -- Ofis
   Departman -- Çalışan
 
-![image](https://github.com/onur-karakus/OOP/blob/main/UniversityManagementSystem/src/UMS.png)
+![image](https://github.com/onur-karakus/OOP/blob/main/UniversityManagementSystem/src/UMS.svg)
