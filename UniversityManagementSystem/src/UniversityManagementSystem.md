@@ -31,4 +31,3 @@ class Universite {
 </a>
 </details>
 
-[<--]([../UniversityManagementSystem.md](https://github.com/onur-karakus/OOP/edit/main/UniversityManagementSystem/src/UniversityManagementSystem.md))
