@@ -23,3 +23,6 @@ class Universite {
     Universite -- Departman
     Departman -- Ofis
     Departman -- Çalışan
+
+
+![image](https://github.com/onur-karakus/OOP/blob/main/UniversityManagementSystem/src/UMS.png)
