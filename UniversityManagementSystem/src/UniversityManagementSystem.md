@@ -24,10 +24,4 @@ class Universite {
   Departman -- Ofis
   Departman -- Çalışan
 
-
-<details>
-<summary>University Management System Class Diagram</summary>
-    <img src="https://github.com/onur-karakus/OOP/blob/main/UniversityManagementSystem/src/UMS.png" alt="University Management System" title="University Management System" />
-</a>
-</details>
-
+[!image](https://github.com/onur-karakus/OOP/blob/main/UniversityManagementSystem/src/UMS.png)
