@@ -25,4 +25,10 @@ class Universite {
   Departman -- Çalışan
 
 
-![image](https://github.com/onur-karakus/OOP/blob/main/UniversityManagementSystem/src/UMS.png)
+<details>
+<summary>University Management System Class Diagram</summary>
+    <img src="https://github.com/onur-karakus/OOP/blob/main/UniversityManagementSystem/src/UMS.png" alt="University Management System" title="University Management System" />
+</a>
+</details>
+
+[<--](../ReadMe.md)
